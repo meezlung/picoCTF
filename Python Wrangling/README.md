@@ -1,9 +1,9 @@
 # Python Wrangling
 
 ## Overview
-**10 points**
-**General Skills**
-**Author: Syreal**
+- **10 points**
+- **General Skills**
+- **Author: Syreal**
 
 ## Description
 Python scripts are invoked kind of like programs in the Terminal... Can you run **this Python script** using **this password** to get the **flag**?
