@@ -24,6 +24,22 @@ I've found that the numbers seem to use **ASCII**, so I quickly made myself a py
 That is found at the '**neocat-ascii-decrypter.py**'. It uses a file reader module and lists those numbers in an array while trying to convert them one by one,
 and appending each into a final new array.
 
+```python
+with open('nc mercury.picoctf.net 49039.txt', 'r') as file:
+    lines = file.readlines()
+
+numbers = []
+character = []
+
+for line in lines:
+    numbers.append(int(line.strip()))
+
+for number in numbers:
+    character.append(chr(number))
+
+print(''.join(str(char) for char in character))
+```
+
 Flag:
 ```
 picoCTF{g00d_k1tty!_n1c3_k1tty!_3d84edc8}
