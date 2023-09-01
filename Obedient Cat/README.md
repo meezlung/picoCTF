@@ -11,5 +11,5 @@ Syreal
 This file has a flag in plain sight (aka "in-the-clear"). Download flag.
 
 ## Approach
-if using Linux: just view the flag using man cat
-if using Windows: just view the flag opening the file by a text editor
+- if using Linux: just view the flag using **man cat**
+- if using Windows: just view the flag opening the file by a **text editor**
