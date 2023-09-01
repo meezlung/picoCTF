@@ -15,6 +15,7 @@ This file has a flag in plain sight (aka "in-the-clear"). Download flag.
 - if using Windows: just view the flag opening the file by a **text editor**
 
 ## Flag
-'''text
+```text
 picoCTF{s4n1ty_v3r1f13d_4a2b35fd}
-'''
+```
+
