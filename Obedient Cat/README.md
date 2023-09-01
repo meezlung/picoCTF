@@ -1,11 +1,9 @@
 # Obedient Cat
 
-## Author
-Syreal
-
 ## Overview
-**5 points**
-**General Skills**
+- **5 points**
+- **General Skills**
+- **Author: Syreal**
 
 ## Description
 This file has a flag in plain sight (aka "in-the-clear"). Download flag.
