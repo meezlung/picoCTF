@@ -18,7 +18,7 @@ Password: kZx-HVJKu8
 
 ## Approach
 Firstly, I ssh'ed to the picoplayer by using this command line and enter the password after:
-```
+```linux
 $ ssh picoplayer@saturn.picoctf.net -p 60765
 $ picoplayer's password: kZx-HVJKu8
 ```
@@ -26,7 +26,7 @@ $ picoplayer's password: kZx-HVJKu8
 I've been messing around with commands such as **"crontab -e"**, **"export EDITOR=nano"** and **"crontab -l"**, but the system didn't seem to have a neither crontab or a text editor, so those commands are useless.
 
 So, another approach I did was to mess around with the files. I went to the root directory and opened a bunch of files using **"ls"**, until one file intrigued me.
-```
+```linux
 $ ls 
 bin   challenge  etc   lib    lib64   media  opt   root  sbin  sys  usr
 boot  dev        home  lib32  libx32  mnt    proc  run   srv   tmp  var
@@ -62,7 +62,7 @@ group                   mailcap        resolv.conf          xdg
 ```
 
 There's one file named **"crontab"**. I opened that using **"cat"**.
-```
+```linux
 $ cat crontab
 # picoCTF{Sch3DUL7NG_T45K3_L1NUX_5b7059d0}
 ```
